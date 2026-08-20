@@ -80,3 +80,20 @@ The web app will be available at `http://localhost:5173`.
 npm run build
 ```
 This generates a static bundle in the `dist/` directory that can be served using any static file server (e.g., Nginx, Apache).
+
+
+## Running with Docker
+
+### Prerequisites
+
+- Docker Desktop
+- Docker Compose
+
+### Environment Setup
+
+Create a `.env` file in the project root using the required variables:
+
+```env
+DB_USERNAME=your_database_username
+DB_PASSWORD=your_secure_database_password
+JWT_SECRET=your_secure_jwt_secret
