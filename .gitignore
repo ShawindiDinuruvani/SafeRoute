@@ -27,3 +27,9 @@ Thumbs.db
 # Generated/temporary files
 scratch/
 tmp/
+
+
+# Docker Compose secrets
+.env
+.env.*
+!.env.example
